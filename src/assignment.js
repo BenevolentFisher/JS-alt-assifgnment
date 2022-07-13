@@ -19,7 +19,6 @@ function sumOfNumbers(arrayOfNumbers) {
         total=total+numbers
     }
     return total
-    return arrayOfNumbers.length;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -38,9 +37,9 @@ function countEvenNumbers(arrayOfNumbers) {
 arrayOfNumbers.forEach(item => item % 2 == 0 ? count += 1 : null);
 
 return count;
-    return arrayOfNumbers.length;
+
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
